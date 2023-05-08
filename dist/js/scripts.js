@@ -1,6 +1,11 @@
 /*!
+<<<<<<< HEAD
 * Start Bootstrap - Creative v7.0.6 (https://startbootstrap.com/theme/creative)
 * Copyright 2013-2022 Start Bootstrap
+=======
+* Start Bootstrap - Creative v7.0.7 (https://startbootstrap.com/theme/creative)
+* Copyright 2013-2023 Start Bootstrap
+>>>>>>> b1762d8c690a2379c078c776dc0830bdd81c6f55
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
 */
 //
@@ -34,7 +39,11 @@ window.addEventListener('DOMContentLoaded', event => {
     if (mainNav) {
         new bootstrap.ScrollSpy(document.body, {
             target: '#mainNav',
+<<<<<<< HEAD
             offset: 74,
+=======
+            rootMargin: '0px 0px -40%',
+>>>>>>> b1762d8c690a2379c078c776dc0830bdd81c6f55
         });
     };
 

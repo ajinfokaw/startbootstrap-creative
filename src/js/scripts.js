@@ -29,7 +29,11 @@ window.addEventListener('DOMContentLoaded', event => {
     if (mainNav) {
         new bootstrap.ScrollSpy(document.body, {
             target: '#mainNav',
+<<<<<<< HEAD
             offset: 74,
+=======
+            rootMargin: '0px 0px -40%',
+>>>>>>> b1762d8c690a2379c078c776dc0830bdd81c6f55
         });
     };
 
